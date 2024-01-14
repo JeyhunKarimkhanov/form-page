@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Simple Form Example</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Try a Free Sample</h1>
+        <p>Sign up to get a coupon you can redeem at your nearest Dancing Goat cafe for a sample of the Colombia Carlos
+            Imbachi cofee.We'll also make sure you don't miss out on news introducing the new coffees that we add to our
+            store regularly</p>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="name">First name</label><br>
+                <input type="text" id="name" placeholder="John">
+            </div>
+            <div class="col-lg-6">
+                <label for="surname">Last name</label><br>
+                <input type="text" id="surname" placeholder="Smith">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="email">Email address</label><br>
+                <input type="email" id="email" placeholder="john@example.com">
+            </div>
+            <div class="col-lg-6">
+                <label for="adress">Address</label><br>
+                <input type="text" id="adress" placeholder="Silk St">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="city">City</label><br>
+                <input type="text" id="city" placeholder="London">
+            </div>
+            <div class="col-lg-6">
+                <label for="state">State (optional)</label><br>
+                <input type="text" id="state">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <label for="zip-code">ZIP code</label><br>
+                <input type="text" id="zip-code" placeholder="EC2Y 8DS">
+            </div>
+            <div class="col-lg-6">
+                <label for="country">Country</label><br>
+                <select id="country" name="country">
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Turkiye">Turkiye</option>
+                    <option value="Poland">Poland</option>
+                    <option value="USA">United States</option>
+                    <!-- Diğer ülkeleri buraya ekleyebilirsiniz -->
+                </select>
+            </div>
+        </div>
+
+        <button>SEND ME FREE COFFEE</button>
+    </div>
+
+    <!-- Bootstrap JavaScript (Popper.js ve Bootstrap JS bağımlılıkları ile birlikte) -->
+    <script src="/assets/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
